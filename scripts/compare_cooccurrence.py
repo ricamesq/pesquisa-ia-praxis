@@ -96,12 +96,14 @@ for p, c_zot in zot_co.items():
 delta.sort(key=lambda x: -x['delta'])
 
 # === Output ===
+from datetime import date
+
 out_lines = [
     '---',
     'type: analise-cooccurrence',
-    'data: 2026-05-12',
+    f'data: {date.today().isoformat()}',
     'comparacao: corpus_vosviewer.ris vs Zotero local',
-    'tags: [analise, cooccurrence, bibliometria, vosviewer, zotero, mestrado]',
+    'tags: [analise, cooccurrence, bibliometria, vosviewer, zotero]',
     '---',
     '',
     '# Análise de co-ocorrência — RIS VOSviewer × Zotero atual',
@@ -162,12 +164,12 @@ out_lines += [
     '',
     '1. Olhar os pares **novos** — pode haver eixo temático que merece capítulo ou subseção na dissertação que não estava previsto',
     '2. Pares com aumento >= +50% sugerem **temas que merecem atenção privilegiada** na revisão de literatura',
-    '3. Próximo mapa VOSviewer (após re-export RIS com 1.893 refs) vai refletir exatamente esses pares novos',
+    '3. Próximo mapa VOSviewer (após re-export RIS atualizado) vai refletir exatamente esses pares novos',
     '',
     '## Próximos passos',
     '',
-    '- [ ] Re-exportar RIS do Zotero (1.893 refs)',
-    '- [ ] Aplicar `vosviewer_thesaurus.csv` (existente) + adições de [[candidatas-thesaurus-2026-05-12]]',
+    '- [ ] Re-exportar RIS do Zotero (atualizado)',
+    '- [ ] Aplicar `vosviewer_thesaurus.csv` + candidatas geradas por `gen_candidatas.py`',
     '- [ ] Gerar mapas VOSviewer (network, density, overlay) atualizados',
     '- [ ] Comparar visualmente novos clusters vs. atuais',
 ]

@@ -42,22 +42,13 @@ Em 2023-2025, ferramentas como **Claude Code**, **Cursor**, **Aider** e similare
 
 O ponto crítico: para um orquestrador agêntico funcionar bem com pesquisa acadêmica, **precisa de uma estrutura subjacente** (vault Obsidian organizado, Zotero bem taggeado, scripts reproduzíveis). Sem estrutura, a IA produz lixo organizado. Com estrutura, produz amplificação real.
 
-## 1.3 Letramento digital docente como direito
+## 1.3 Letramento bibliométrico-computacional como direito
 
-A literatura sobre **DigCompEdu** (Redecker, 2017) — referencial europeu de competências digitais para educadores — define seis áreas:
+A literatura sobre competências digitais para educadores (referenciais como **DigCompEdu**, Redecker 2017) define seis áreas: engajamento profissional digital, recursos digitais, ensino e aprendizagem, avaliação, empoderamento dos aprendentes, facilitação da competência digital. Atravessam todas: **letramento informacional, comunicação digital, criação de conteúdo, segurança, resolução de problemas**.
 
-1. Engajamento profissional digital
-2. Recursos digitais (acessar, criar, gerenciar)
-3. Ensino e aprendizagem
-4. Avaliação
-5. Empoderamento dos aprendentes
-6. Facilitação da competência digital dos aprendentes
+A literatura brasileira mais recente mostra que **a maioria dos pesquisadores no ensino superior não tem domínio operacional dessas competências quando aplicadas à própria pesquisa** — saber buscar, organizar, estruturar e dialogar com o corpus que está construindo. A pesquisa de alunos tem manual; a pesquisa pessoal não.
 
-Atravessam todas: **letramento informacional, comunicação digital, criação de conteúdo, segurança, resolução de problemas**.
-
-A literatura brasileira mais recente (vide o corpus de 1.893 referências analisado em [`Cap. 5`](05-fluxo-integrado.md) deste livro) mostra que **a maioria dos docentes do ensino superior não tem domínio operacional dessas competências**. Quando se trata de gestão pessoal da própria pesquisa — não da pesquisa dos alunos — o gap é ainda maior.
-
-Esse livro parte da hipótese de que **letramento digital docente é, em parte, letramento bibliométrico-computacional**: a capacidade de configurar e operar um ecossistema de ferramentas de pesquisa pessoal que respeite a integridade do pensamento e amplifique seu alcance.
+Esse livro parte da hipótese de que **letramento digital de pesquisador é, em parte, letramento bibliométrico-computacional**: a capacidade de configurar e operar um ecossistema de ferramentas de pesquisa pessoal que respeite a integridade do pensamento e amplifique seu alcance.
 
 Não é tecnocracia. É **autonomia epistêmica**.
 
@@ -91,11 +82,11 @@ Tutoriais existentes sobre Obsidian + Zotero existem aos milhares em inglês. So
 
 Três razões para este livro existir em português, agora:
 
-1. **Letramento docente brasileiro precisa de material em vernáculo**. A literatura recente do nosso corpus (vide [`Cap. 6`](06-analises-possiveis.md)) mostra que termos em pt-BR sobre IA na educação chegam ~1 ano depois dos equivalentes em inglês, o que cria gap formativo concreto.
+1. **Letramento de pesquisador brasileiro precisa de material em vernáculo**. Termos técnicos em pt-BR sobre IA na pesquisa acadêmica chegam meses depois dos equivalentes em inglês, o que cria gap formativo concreto.
 
 2. **A integração de cinco ferramentas é um nó técnico-pedagógico** que tem manuais isolados mas pouco material conectivo. Cada ferramenta tem seu manual; quase nenhum livro mostra o fluxo entre elas.
 
-3. **Mestrado profissional precisa de produto técnico-pedagógico**. Se você é mestrando e está lendo, considere adaptar este livro para a sua área (saúde, direito, engenharia, ciências exatas) — a estrutura é reusável, o exemplo é só meu caso (educação + saúde digital).
+3. **Mestrado profissional precisa de produto técnico-pedagógico**. Se você é mestrando e está lendo, considere adaptar este livro para a sua área (saúde, direito, engenharia, educação, ciências exatas, humanidades) — a estrutura é reusável.
 
 ## 1.6 O que NÃO está neste livro
 

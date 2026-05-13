@@ -91,17 +91,20 @@ def sugerir(name, cat):
     return ''
 
 
+from datetime import date as _date
+
+_hoje = _date.today().isoformat()
 lines = [
     '---',
     'type: candidatas-thesaurus',
-    'data: 2026-05-12',
+    f'data: {_hoje}',
     'origem: Zotero tags vs vosviewer_thesaurus.csv',
     'tags: [thesaurus, candidatas, taxonomia, zotero, vosviewer]',
     '---',
     '',
     '# Candidatas a entrar no thesaurus VOSviewer',
     '',
-    f'> Análise 2026-05-12: {len(zot)} tags únicas no Zotero, {len(ja_consolidadas)} já consolidadas pelo thesaurus existente. **{len(candidatas)} candidatas** com 5+ ocorrências e fora da taxonomia manual (`gap_*`, `teoria_*`, `fonte_*`, `base_*`).',
+    f'> Análise {_hoje}: {len(zot)} tags únicas no Zotero, {len(ja_consolidadas)} já consolidadas pelo thesaurus existente. **{len(candidatas)} candidatas** com 5+ ocorrências e fora da taxonomia manual (`gap_*`, `teoria_*`, `fonte_*`, `base_*`).',
     '',
     '## Como usar',
     '',

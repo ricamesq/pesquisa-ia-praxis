@@ -59,7 +59,7 @@ Better BibTeX pode manter um arquivo `.bib` sempre atualizado:
 Tags no Zotero são o esqueleto da sua taxonomia. Recomendações:
 
 - **Tags com prefixo padronizado** facilitam filtrar:
-  - `gap_X` para gaps na sua dissertação (ex.: `gap_dissertacao_letramento`)
+  - `gap_X` para gaps na sua dissertação (ex.: `gap_dissertacao_metodo`)
   - `teoria_X` para autores-fonte (ex.: `teoria_ausubel`, `teoria_vygotsky`)
   - `fonte_X` para origem da ref (ex.: `fonte_scholar`, `fonte_capes`)
   - `status_X` para etapas de leitura (ex.: `status_a_ler`, `status_fichado`)

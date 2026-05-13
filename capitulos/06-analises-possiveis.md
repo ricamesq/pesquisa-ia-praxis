@@ -100,15 +100,17 @@ Use [`scripts/compare_cooccurrence.py`](../scripts/compare_cooccurrence.py).
 ```
 === Co-ocorrência entre eixos ===
 Par                                                     RIS      Zot        Δ
-ciencias_humanas + tecnologia                           651      747      +96
-ciencias_humanas + pedagogia_aprendizagem               487      595     +108
-pedagogia_aprendizagem + tecnologia                     433      585     +152
+eixo_A + eixo_B                                         650      750     +100
+eixo_A + eixo_C                                         430      580     +150
+eixo_B + eixo_C                                         485      595     +110
 ```
 
-Lê-se:
-- **+96 em humanas + tecnologia**: aumentou de 651 para 747 refs que têm tag dos dois eixos. Isso indica que a literatura está **dialogando** mais entre humanas e tech.
-- **+152 em pedagogia + tecnologia** (maior aumento absoluto): essa é a intersecção que mais ganhou peso. Tema natural pra capítulo de revisão.
-- **+108 em humanas + pedagogia**: a tradição humanística está sendo retomada no contexto pedagógico.
+(Exemplo ilustrativo — adapte os eixos à sua taxonomia.)
+
+Como ler:
+- **+100 em A + B**: aumentou de 650 para 750 refs que têm tag dos dois eixos. Isso indica que a literatura está **dialogando** mais entre esses dois temas.
+- **+150 em A + C** (maior aumento absoluto): essa é a intersecção que mais ganhou peso. Tema natural pra capítulo de revisão.
+- **+110 em B + C**: outro cruzamento ascendente, requer leitura interpretativa para entender a direção do diálogo.
 
 ### Pares "novos" vs "fortalecidos"
 
@@ -192,7 +194,7 @@ O Graphify identifica **god nodes** (nós mais conectados) automaticamente. Veja
 - **Projetos seus**: ex. `NIT-CEUNSP`, `Anamnese` (porque você os menciona em muitas notas)
 - **Conceitos centrais da tese**: ex. `letramento_digital`, `formacao_docente`, `aprendizagem_significativa`
 - **Pessoas-chave**: ex. orientador, autores citados em vários capítulos
-- **Tags-âncora**: ex. `gap_dissertacao_p1`
+- **Tags-âncora**: ex. `gap_dissertacao_eixo1`
 
 ### Bridge nodes (alta betweenness centrality)
 
@@ -241,29 +243,29 @@ GROUP BY status
 SORT length(rows) DESC
 ```
 
-Output (exemplo real):
+Output (exemplo ilustrativo, corpus de ~2.000 refs):
 
 ```
 status        Refs
-a-ler         1750
+a-ler         1800
 lendo            8
-fichado         42
-citado          93
+fichado         40
+citado          90
 ```
 
-Lê-se: das 1.893 refs do corpus, **só 93 (5%) foram efetivamente citadas em alguma escrita** — e 1.750 (92%) nem foram lidas. Isso é normal num corpus bibliográfico amplo — a função do corpus é dar **profundidade defensiva** ("o que mais existe?") e cobertura ("o que falta?").
+Lê-se: **só ~5% foram efetivamente citadas em alguma escrita** — e ~92% nem foram lidas. Isso é normal num corpus bibliográfico amplo — a função do corpus é dar **profundidade defensiva** ("o que mais existe?") e cobertura ("o que falta?").
 
 ### Por que isso importa
 
-🎯 **Não confunda volume com profundidade.** Ter 1.893 refs no Zotero não te dá direito a dizer "minha pesquisa cobre essa literatura". Você cobre o que **fichou e citou** (~50-150 refs por capítulo, no máximo).
+🎯 **Não confunda volume com profundidade.** Ter milhares de refs no Zotero não te dá direito a dizer "minha pesquisa cobre essa literatura". Você cobre o que **fichou e citou** (~50-150 refs por capítulo, no máximo).
 
-🎯 As outras ~1.700 refs servem para: (1) defesa quando perguntarem "e o autor X você considerou?"; (2) buscas pontuais por tema; (3) curadoria editorial (o que essa literatura está dizendo no agregado).
+🎯 As outras refs servem para: (1) defesa quando perguntarem "e o autor X você considerou?"; (2) buscas pontuais por tema; (3) curadoria editorial (o que essa literatura está dizendo no agregado).
 
 ## 5.8 Análise de bibliometria comparativa (refs-charneira)
 
 Pergunta: **quais refs do meu corpus combinam várias categorias da minha taxonomia?**
 
-São as **refs-charneira**: ref que tem tags `teoria_ausubel` + `gap_dissertacao_p1` + `aprendizagem_significativa` + `letramento_digital` ao mesmo tempo. Tipicamente, são as refs mais valiosas para argumentação.
+São as **refs-charneira**: ref que tem tags `teoria_X` + `gap_Y` + `conceito_Z` + `metodo_W` ao mesmo tempo. Tipicamente, são as refs mais valiosas para argumentação.
 
 ### Como rodar
 

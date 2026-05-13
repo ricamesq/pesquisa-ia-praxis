@@ -56,13 +56,13 @@ VYGOTSKY, Lev. **A formação social da mente**. 7. ed. São Paulo: Martins Font
 
 Em formato ABNT NBR 6023:2018:
 
-> MESQUITA, Ricardo. **Pesquisa IA Práxis: um manual prático de letramento bibliométrico-computacional para pesquisadores em educação e saúde**. Versão 0.1. Itu/SP: edição do autor, 2026. Disponível em: https://github.com/ricamesq/pesquisa-ia-praxis. Acesso em: [data].
+> MESQUITA, Ricardo. **Pesquisa IA Práxis: um manual prático de letramento bibliométrico-computacional para pesquisadores**. Versão 0.1. Itu/SP: edição do autor, 2026. Disponível em: https://github.com/ricamesq/pesquisa-ia-praxis. Acesso em: [data].
 
 Em BibTeX:
 
 ```bibtex
 @book{mesquita2026pesquisaia,
-  title     = {Pesquisa IA Práxis: Um manual prático de letramento bibliométrico-computacional para pesquisadores em educação e saúde},
+  title     = {Pesquisa IA Práxis: Um manual prático de letramento bibliométrico-computacional para pesquisadores},
   author    = {Mesquita, Ricardo},
   year      = {2026},
   edition   = {Versão 0.1},

@@ -110,7 +110,7 @@
 
 ## 7.3 Adaptação por área do conhecimento
 
-Este livrinho usa pesquisa em **educação + saúde digital** como exemplo. Para outras áreas, ajuste:
+O livrinho é agnóstico de área. Para adaptar a fluxos específicos, ajuste:
 
 ### Direito
 - Foco em fichamento de jurisprudência (criar `30 - Jurisprudencias/`)

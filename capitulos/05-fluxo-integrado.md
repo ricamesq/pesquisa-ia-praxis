@@ -83,20 +83,20 @@ Você usa o **script no início** (bootstrap) e o **plugin no dia-a-dia** (impor
 
 ### O que esperar
 
-Para 1.893 referências, leva ~15 segundos. Saída:
+Para ~2.000 referências, leva ~15 segundos. Exemplo de saída:
 
 ```
 Lendo Zotero (read-only)...
-Total items: 1893
-OK -- 1893 notas, 0 erros, 12105 atribuicoes de tag preservadas.
+Total items: 1850
+OK -- 1850 notas, 0 erros, 12100 atribuicoes de tag preservadas.
 
 Por folder:
-  _imports/pedagogica                      717
-  _imports/capes-scholar                   428
-  _imports/mestrado                        337
-  _imports/busca-dirigida                  333
-  P1_Letramento                            59
-  P4_Teorico                               17
+  _imports/base-externa                    720
+  _imports/busca-bases-indexadas           430
+  _imports/leitura-recente                 340
+  _imports/busca-dirigida                  330
+  P1_Tema                                   30
+  P2_Tema                                   20
   _sem-collection                            2
 ```
 
@@ -297,22 +297,24 @@ RIS refs: 1443 | Zot refs: 1824
 
 === Refs com tag do eixo ===
 Eixo                                RIS      %      Zot      %     Δ pp
-tecnologia                         1066  73.9%     1245  68.3%    -5.6
-ciencias_humanas                    895  62.0%     1026  56.2%    -5.8
-pedagogia_aprendizagem              514  35.6%      792  43.4%    +7.8
+eixo_A                             1000  72.0%     1200  68.0%    -4.0
+eixo_B                              900  64.8%     1000  56.7%    -8.1
+eixo_C                              500  36.0%      750  42.5%    +6.5
 
 === Co-ocorrência entre eixos ===
 Par                                                     RIS      Zot        Δ
-ciencias_humanas + tecnologia                           651      747      +96
-ciencias_humanas + pedagogia_aprendizagem               487      595     +108
-pedagogia_aprendizagem + tecnologia                     433      585     +152
+eixo_A + eixo_B                                         650      750      +100
+eixo_A + eixo_C                                         430      580      +150
+eixo_B + eixo_C                                         485      595      +110
 ```
+
+(Exemplo ilustrativo. Os eixos são definidos no léxico do script — adapte para a taxonomia da sua área.)
 
 ### O que esses números significam
 
 - **Δ pp negativo** = eixo perdeu peso relativo (mesmo crescendo em valor absoluto, cresceu menos que outros)
 - **Δ pp positivo** = eixo ganhou peso relativo
-- **Co-ocorrência crescendo** = clusters intersetoriais se fortalecendo (pedagogia + tecnologia, por exemplo)
+- **Co-ocorrência crescendo** = clusters intersetoriais se fortalecendo
 
 ### Como narrar isso na sua tese
 
@@ -345,7 +347,7 @@ graphify merge-graphs \
 ### Consultar o meta-grafo
 
 ```bash
-graphify query "letramento digital docente" \
+graphify query "<seu termo de pesquisa>" \
   --graph ~/.graphify/meta-graph/merged-graph.json
 
 graphify path "<conceito A>" "<conceito B>" \
@@ -375,8 +377,8 @@ Cada etapa do fluxo deve ser **rastreável**:
 
 - Vault Obsidian: Git commit a cada 30s (plugin Obsidian Git)
 - Scripts Python: versionados em `scripts/` no repo do livrinho
-- Mapas VOSviewer: arquivos PNG datados (`50 - Analises/vosviewer-2026-05/`)
-- RIS exportado: versionado com timestamp (`_meta/exports/corpus_2026-05-12.ris`)
+- Mapas VOSviewer: arquivos PNG datados (`50 - Analises/vosviewer-aaaa-mm/`)
+- RIS exportado: versionado com timestamp (`_meta/exports/corpus_aaaa-mm-dd.ris`)
 - Análises de shift: arquivos `.md` em `50 - Analises/`
 
 ### Por que isso importa

@@ -103,7 +103,7 @@ Em caso de divergência, **dados quantitativos vencem**. Os mapas visuais servem
 
 ## 6.6 Cluster COVID inflando a análise
 
-**Sintoma**: você está pesquisando "ensino remoto no contexto da formação docente em IES brasileiras". Análises mostram cluster gigante chamado "COVID-19" dominando o mapa. Sua tese não é sobre pandemia.
+**Sintoma**: você está pesquisando um tema X (que pode ser metodologia, intervenção clínica, política pública etc.). Análises mostram cluster gigante chamado "COVID-19" dominando o mapa. Sua tese não é sobre pandemia.
 
 **Diagnóstico**: refs de 2020-2022 sobre qualquer aspecto de educação têm tag automática `covid-19`, `pandemic`, `coronavirus` adicionadas pelo Zotero auto-tag ou pelo SciHub/CAPES quando você baixou em massa. Essas tags inflam contagens.
 
@@ -176,7 +176,7 @@ graphify update .
 
 ## 6.10 Esquecer de versionar antes de mudanças grandes
 
-**Sintoma**: você roda script que sobrescreve 1.893 notas. Algumas tinham fichamento manual seu. Perdeu tudo.
+**Sintoma**: você roda script que sobrescreve milhares de notas. Algumas tinham fichamento manual seu. Perdeu tudo.
 
 **Diagnóstico**: scripts batch são poderosos. Sem versionamento, são também perigosos.
 

@@ -29,12 +29,12 @@ VAULT_REFS = Path(r"C:\Users\SEU_USUARIO\Documents\meu-vault\20 - Referencias")
 #    Exemplo abaixo segue o padrão "P1_Tema, P2_Tema..." comum em mestrado.
 #    Refs em collections NÃO listadas caem em "_sem-collection".
 COLLECTIONS_FOLDERS = {
-    "P1_Letramento": "P1_Letramento",
-    "P2_IA-Educacao": "P2_IA-Educacao",
-    "P3_Formacao-Docente": "P3_Formacao-Docente",
+    "P1_Tema": "P1_Tema",
+    "P2_Tema": "P2_Tema",
+    "P3_Tema": "P3_Tema",
     "P4_Teorico": "P4_Teorico",
     "zotero_import_busca_dirigida": "_imports/busca-dirigida",
-    "zotero_import_capes_scholar": "_imports/capes-scholar",
+    "zotero_import_bases_indexadas": "_imports/bases-indexadas",
 }
 # ====================================================================
 

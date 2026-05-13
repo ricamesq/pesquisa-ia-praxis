@@ -1,5 +1,5 @@
 # Pesquisa IA Práxis
-### Um manual prático de letramento bibliométrico-computacional para pesquisadores em educação e saúde
+### Um manual prático de letramento bibliométrico-computacional para pesquisadores
 
 > Versão 0.1 · maio/2026 · Ricardo Mesquita · Licença CC BY-SA 4.0
 
@@ -21,17 +21,17 @@ A integração não é um truque técnico — é uma **postura epistemológica**
 
 ## Para quem este livrinho serve
 
-- Mestrandos e doutorandos em qualquer área das ciências humanas e da saúde
+- Mestrandos e doutorandos em qualquer área do conhecimento
 - Docentes universitários que querem reorganizar seu corpus de pesquisa
-- Pesquisadores em educação investigando letramento digital docente
-- Bibliotecários e gestores de informação interessados em métodos reprodutíveis
+- Pesquisadores autônomos que precisam de método reprodutível
+- Bibliotecários e gestores de informação interessados em pipelines integrados
 - Qualquer pessoa que sinta que sua pesquisa virou pilhas de PDFs perdidos no Drive
 
 ## O que você vai aprender
 
 1. Por que pesquisa fragmentada empobrece pensamento (e como recompor)
 2. Como configurar cada ferramenta uma vez e nunca mais lutar com configuração
-3. Como exportar 1.893 referências do Zotero para 1.893 notas Markdown em 15 segundos
+3. Como exportar milhares de referências do Zotero para notas Markdown em segundos
 4. Como indexar seu vault como grafo de conhecimento navegável
 5. Como gerar mapas bibliométricos (network, density, overlay temporal)
 6. Como detectar deslocamentos temáticos no seu corpus ao longo dos anos
@@ -68,8 +68,8 @@ Pesquisa-IA-Praxis/
 │   ├── 09-anexo-catalogo.md
 │   └── 99-referencias.md
 ├── scripts/
-│   ├── export_zotero_to_vault.py   ← 1.893 refs → notas .md
-│   ├── analise_shift_v2.py         ← shift temático tech↔humanas↔pedagogia
+│   ├── export_zotero_to_vault.py   ← Zotero sqlite → 1 nota .md por ref
+│   ├── analise_shift_v2.py         ← shift temático entre dois cortes do corpus
 │   ├── compare_cooccurrence.py     ← co-ocorrência RIS × Zotero
 │   └── gen_candidatas.py           ← candidatas a thesaurus VOSviewer
 ├── exemplos/
@@ -98,7 +98,7 @@ Você pode copiar, redistribuir e adaptar este material, inclusive para fins com
 
 ```bibtex
 @book{mesquita2026pesquisaia,
-  title     = {Pesquisa IA Práxis: Um manual prático de letramento bibliométrico-computacional para pesquisadores em educação e saúde},
+  title     = {Pesquisa IA Práxis: Um manual prático de letramento bibliométrico-computacional para pesquisadores},
   author    = {Mesquita, Ricardo},
   year      = {2026},
   publisher = {GitHub},
@@ -109,7 +109,7 @@ Você pode copiar, redistribuir e adaptar este material, inclusive para fins com
 
 ## Sobre o autor
 
-Ricardo Mesquita é mestrando em Ciências e Matemática pela Universidade Cruzeiro do Sul (UNICSUL, 2026), com pesquisa em letramento digital docente e tecnologias de aprendizagem. Coordenador proposto do Núcleo de Inovação Tecnológica do CEUNSP (NIT-CEUNSP). Docente da Faculdade de Medicina do CEUNSP.
+Ricardo Mesquita é mestrando em Ciências e Matemática pela Universidade Cruzeiro do Sul (UNICSUL, 2026). Docente da Faculdade de Medicina do CEUNSP.
 
 ---
 

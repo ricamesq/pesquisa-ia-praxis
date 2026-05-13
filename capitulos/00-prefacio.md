@@ -4,7 +4,7 @@
 
 ## Por que escrevi isso
 
-Em 12 de maio de 2026, em uma sessão de oito horas com o Claude Code, fiz algo que vinha adiando há dois anos: integrei minha biblioteca de 1.893 referências do Zotero ao meu Obsidian, indexei tudo como grafo navegável, comparei com meus mapas bibliométricos antigos do VOSviewer, e descobri — pela diferença entre antes e depois — que o foco da minha dissertação tinha se deslocado sem que eu percebesse conscientemente.
+Em uma sessão única com o Claude Code, fiz algo que vinha adiando há tempo: integrei minha biblioteca do Zotero ao meu Obsidian, indexei tudo como grafo navegável, comparei com mapas bibliométricos antigos do VOSviewer, e descobri — pela diferença entre antes e depois — que o foco da pesquisa tinha se deslocado sem que eu percebesse conscientemente.
 
 A descoberta não veio da ferramenta. Veio do **diálogo entre as ferramentas**.
 
@@ -42,21 +42,22 @@ Quem está em algum desses lugares:
 
 ## Como o livro foi escrito
 
-Este livro foi escrito **junto com o Claude Code** em uma sessão única. A estrutura é minha. Os exemplos são da minha pesquisa real (mestrado em Ciências e Matemática na Universidade Cruzeiro do Sul, 2026). O texto é uma colaboração: eu escolhi o que dizer, o Claude ajudou a organizar e parafrasear. Cada script Python é funcional e foi rodado contra minha base real antes de entrar aqui.
+Este livro foi escrito **junto com o Claude Code** em uma sessão única. A estrutura é minha. O texto é uma colaboração: eu escolhi o que dizer, o Claude ajudou a organizar e parafrasear. Cada script Python é funcional e foi rodado contra uma base real de referências antes de entrar aqui.
 
 Não é livro IA-gerado. É livro IA-mediado — diferença que vai ficar mais clara conforme você ler.
 
 ## Estrutura
 
-1. **Por que isso importa** — o contexto, o problema, o letramento docente como direito
+1. **Por que isso importa** — o contexto, o problema, letramento bibliométrico-computacional como direito
 2. **Stack de ferramentas** — Zotero, Obsidian, Graphify, VOSviewer, Claude Code
-3. **Setup** — uma vez e nunca mais
-4. **Fluxo integrado** — o coração do livro: o passo a passo real
-5. **Análises possíveis** — o que esse fluxo permite que você não conseguia antes
-6. **Armadilhas aprendidas** — coisas que custaram horas
-7. **Como replicar** — checklist do zero
-8. **Anexo** — catálogo de ferramentas auxiliares (Graphify, ECC, scripts comentados)
-9. **Referências** — bibliografia comentada
+3. **Setup manual** — uma vez e nunca mais
+4. **Setup via Claude Code** — alternativa agêntica ao Cap. 3
+5. **Fluxo integrado** — o coração do livro: o passo a passo real
+6. **Análises possíveis** — o que esse fluxo permite que você não conseguia antes
+7. **Armadilhas aprendidas** — coisas que custaram horas
+8. **Como replicar** — checklist do zero
+9. **Anexo** — catálogo de ferramentas auxiliares (Graphify, ECC, scripts comentados)
+10. **Referências** — bibliografia comentada
 
 Não precisa ler em ordem. Cada capítulo se vira sozinho.
 

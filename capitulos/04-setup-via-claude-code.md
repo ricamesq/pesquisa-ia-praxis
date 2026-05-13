@@ -250,7 +250,7 @@ Claude Code lê: project_pipeline_mestrado.md
                  + reference_zotero_path.md
 
 Claude Code: "Continuando de onde paramos: você está com 
-              1.847 refs no Zotero, último Graphify rodou em 
+              ~2.000 refs no Zotero, último Graphify rodou em 
               [data], pendente: aplicar thesaurus atualizado 
               no VOSviewer. Quer seguir por aí?"
 ```

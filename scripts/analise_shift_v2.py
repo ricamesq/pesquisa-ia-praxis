@@ -1,10 +1,14 @@
-"""Versão 2: análise do shift com eixo CIÊNCIAS HUMANAS corretamente definido.
+"""Análise de shift temático: compara RIS antigo (snapshot VOSviewer) com Zotero atual.
 
-Léxico revisado a partir da releitura visual do overlay (12/05/2026):
-- Termos AMARELOS (2024) → Ciências Humanas / Reflexão Crítica
-- Termos AZUIS (2021-2022) → Tecnologia Educacional Aplicada
-- Eixo Pedagogia mantido (alguns termos ficam fronteira)
-- COVID continua excluído
+Classifica keywords/tags em eixos temáticos e mede deslocamento de peso relativo
+entre os dois cortes. Útil para identificar como o foco do corpus mudou ao longo
+do tempo.
+
+Léxico abaixo é EXEMPLO (educação + tecnologia + humanidades) — adapte para sua área.
+COVID é excluído por padrão (análises pós-pandêmicas). Para incluir, basta mover
+'covid_excluido' para a lista de eixos válidos no resto do script.
+
+EDITE a seção CONFIG no fim do bloco de léxico.
 """
 import re, unicodedata, sqlite3, json
 from pathlib import Path
@@ -18,7 +22,7 @@ def normalize(s):
     return re.sub(r'[^a-z0-9 ]+', ' ', s).strip()
 
 
-# Léxico revisado em 12/05/2026 baseado no overlay VOSviewer real
+# Léxico EXEMPLO — adapte os termos e eixos para sua área de pesquisa.
 LEX = {
     # Antes era "bem_estar" — agora explicitamente Ciências Humanas + Reflexão Crítica
     # Inclui termos que aparecem em AMARELO (2024) no overlay
