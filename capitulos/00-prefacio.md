@@ -19,7 +19,6 @@ Quem está em algum desses lugares:
 - Tentou Obsidian e desistiu porque "não sabia o que pôr lá"
 - Acha que IA vai "fazer a tese" — vai descobrir aqui que não
 - Acha que IA "não tem nada a oferecer pra pesquisa séria" — vai descobrir aqui que tem, mas só se você der ela uma estrutura pra orquestrar
-- Quer um produto técnico-pedagógico para mestrado profissional que tenha utilidade real
 - Trabalha com bibliotecas universitárias e quer entender o estado da arte em pesquisa pessoal computacional
 
 ## Quem NÃO deveria ler isto
