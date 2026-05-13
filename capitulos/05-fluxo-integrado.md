@@ -316,7 +316,7 @@ pedagogia_aprendizagem + tecnologia                     433      585     +152
 
 ### Como narrar isso na sua tese
 
-O Cap. 7 deste livro tem exemplos de narrativas. A regra: **vá da observação visual (overlay VOSviewer) para a confirmação quantitativa (script Python)**. Não use o script como ponto de partida — use como validação.
+O Cap. 6 deste livro tem exemplos de narrativas. A regra: **vá da observação visual (overlay VOSviewer) para a confirmação quantitativa (script Python)**. Não use o script como ponto de partida — use como validação.
 
 ## 4.6 Etapa 5 — Meta-grafo cross-vault
 
@@ -402,4 +402,4 @@ Para uso contínuo, sugiro este ciclo semanal:
 
 ---
 
-> 📚 **Próximo capítulo:** [05 — Análises possíveis](05-analises-possiveis.md)
+> 📚 **Próximo capítulo:** [06 — Análises possíveis](06-analises-possiveis.md)

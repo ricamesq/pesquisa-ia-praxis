@@ -235,4 +235,4 @@ gh repo list --visibility public
 
 ---
 
-> 📚 **Próximo capítulo:** [07 — Como replicar](07-replicacao.md)
+> 📚 **Próximo capítulo:** [08 — Como replicar](08-replicacao.md)

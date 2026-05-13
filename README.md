@@ -42,11 +42,12 @@ A integração não é um truque técnico — é uma **postura epistemológica**
 
 | Se você é | Leia primeiro |
 |---|---|
-| Iniciante em pesquisa | Cap. 1 (motivação) → Cap. 3 (setup) → Cap. 4 (fluxo) |
-| Já usa Zotero, quer integrar Obsidian | Cap. 2 (stack) → Cap. 4 (fluxo) |
-| Quer só reproduzir o resultado | Cap. 4 + Cap. 8 (scripts) |
-| Quer entender o argumento por trás | Cap. 1 + Cap. 5 + Cap. 6 |
-| Está com pressa | Pule para [`capitulos/07-replicacao.md`](capitulos/07-replicacao.md) |
+| Iniciante em pesquisa | Cap. 1 (motivação) → Cap. 3 (setup manual) → Cap. 5 (fluxo) |
+| Iniciante mas confortável com IA | Cap. 1 → Cap. 4 (setup via Claude Code) → Cap. 5 (fluxo) |
+| Já usa Zotero, quer integrar Obsidian | Cap. 2 (stack) → Cap. 5 (fluxo) |
+| Quer só reproduzir o resultado | Cap. 5 + Cap. 9 (scripts) |
+| Quer entender o argumento por trás | Cap. 1 + Cap. 6 + Cap. 7 |
+| Está com pressa | Pule para [`capitulos/08-replicacao.md`](capitulos/08-replicacao.md) |
 
 ## Estrutura do repositório
 
@@ -58,12 +59,13 @@ Pesquisa-IA-Praxis/
 │   ├── 00-prefacio.md
 │   ├── 01-por-que-isso-importa.md
 │   ├── 02-stack-de-ferramentas.md
-│   ├── 03-setup.md
-│   ├── 04-fluxo-integrado.md       ← ⭐ o coração do livro
-│   ├── 05-analises-possiveis.md
-│   ├── 06-armadilhas-aprendidas.md
-│   ├── 07-replicacao.md
-│   ├── 08-anexo-catalogo.md
+│   ├── 03-setup.md                       ← setup manual
+│   ├── 04-setup-via-claude-code.md       ← ⭐ NOVO: setup agêntico
+│   ├── 05-fluxo-integrado.md             ← ⭐ o coração do livro
+│   ├── 06-analises-possiveis.md
+│   ├── 07-armadilhas-aprendidas.md
+│   ├── 08-replicacao.md
+│   ├── 09-anexo-catalogo.md
 │   └── 99-referencias.md
 ├── scripts/
 │   ├── export_zotero_to_vault.py   ← 1.893 refs → notas .md

@@ -55,7 +55,7 @@ A literatura sobre **DigCompEdu** (Redecker, 2017) — referencial europeu de co
 
 Atravessam todas: **letramento informacional, comunicação digital, criação de conteúdo, segurança, resolução de problemas**.
 
-A literatura brasileira mais recente (vide o corpus de 1.893 referências analisado em [`Cap. 4`](04-fluxo-integrado.md) deste livro) mostra que **a maioria dos docentes do ensino superior não tem domínio operacional dessas competências**. Quando se trata de gestão pessoal da própria pesquisa — não da pesquisa dos alunos — o gap é ainda maior.
+A literatura brasileira mais recente (vide o corpus de 1.893 referências analisado em [`Cap. 5`](05-fluxo-integrado.md) deste livro) mostra que **a maioria dos docentes do ensino superior não tem domínio operacional dessas competências**. Quando se trata de gestão pessoal da própria pesquisa — não da pesquisa dos alunos — o gap é ainda maior.
 
 Esse livro parte da hipótese de que **letramento digital docente é, em parte, letramento bibliométrico-computacional**: a capacidade de configurar e operar um ecossistema de ferramentas de pesquisa pessoal que respeite a integridade do pensamento e amplifique seu alcance.
 
@@ -91,7 +91,7 @@ Tutoriais existentes sobre Obsidian + Zotero existem aos milhares em inglês. So
 
 Três razões para este livro existir em português, agora:
 
-1. **Letramento docente brasileiro precisa de material em vernáculo**. A literatura recente do nosso corpus (vide [`Cap. 5`](05-analises-possiveis.md)) mostra que termos em pt-BR sobre IA na educação chegam ~1 ano depois dos equivalentes em inglês, o que cria gap formativo concreto.
+1. **Letramento docente brasileiro precisa de material em vernáculo**. A literatura recente do nosso corpus (vide [`Cap. 6`](06-analises-possiveis.md)) mostra que termos em pt-BR sobre IA na educação chegam ~1 ano depois dos equivalentes em inglês, o que cria gap formativo concreto.
 
 2. **A integração de cinco ferramentas é um nó técnico-pedagógico** que tem manuais isolados mas pouco material conectivo. Cada ferramenta tem seu manual; quase nenhum livro mostra o fluxo entre elas.
 

@@ -98,7 +98,7 @@
 
 ### Etapa 8 — Análise descritiva (10 min)
 
-- [ ] Rodar `descritiva.py` (do Cap. 5 §5.1) — total por tipo, ano, autor
+- [ ] Rodar `descritiva.py` (do Cap. 6 §6.1) — total por tipo, ano, autor
 - [ ] Anotar resultados em `<vault>/50 - Analises/descritiva-corpus-<data>.md`
 - [ ] Refletir: o corpus tem o tamanho que eu esperava? A distribuição faz sentido?
 
@@ -198,4 +198,4 @@ Uma vez que o sistema esteja rodando, considere:
 
 ---
 
-> 📚 **Próximo capítulo:** [08 — Anexos e catálogo](08-anexo-catalogo.md)
+> 📚 **Próximo capítulo:** [09 — Anexos e catálogo](09-anexo-catalogo.md)

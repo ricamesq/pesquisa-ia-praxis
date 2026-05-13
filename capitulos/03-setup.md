@@ -82,7 +82,7 @@ Tags no Zotero são o esqueleto da sua taxonomia. Recomendações:
 - **anamnese-vault** (projeto institucional — produto Anamnese, NIT-CEUNSP)
 - **mestrado-vault** (dissertação, referências do Zotero, escrita de capítulos)
 
-Cada vault é uma pasta separada. Eles podem dialogar via **meta-grafo Graphify** (ver Cap. 5) sem misturar conteúdo.
+Cada vault é uma pasta separada. Eles podem dialogar via **meta-grafo Graphify** (ver Cap. 6) sem misturar conteúdo.
 
 Para criar o vault da pesquisa:
 
@@ -337,7 +337,7 @@ claude plugin marketplace add https://github.com/affaan-m/everything-claude-code
 claude plugin install ecc@ecc
 ```
 
-Veja Cap. 8 (anexos) para o catálogo completo.
+Veja Cap. 9 (anexos) para o catálogo completo.
 
 ## 3.8 Checklist de sanity
 
@@ -353,8 +353,10 @@ Antes de prosseguir, verifique cada item:
 - [ ] Git inicializado no vault e remote GitHub configurado (opcional)
 - [ ] Você consegue rodar Python 3.10+ no terminal
 
-Se tudo OK, parta para o Cap. 4 — o fluxo integrado.
+Se tudo OK, parta para o **Cap. 4** se quiser ver o pipeline orquestrado pelo Claude Code, ou direto para o **Cap. 5** — o fluxo integrado.
 
 ---
 
-> 📚 **Próximo capítulo:** [04 — Fluxo integrado](04-fluxo-integrado.md)
+> 📚 **Próximo capítulo:** [04 — Setup via Claude Code (modo agêntico)](04-setup-via-claude-code.md)
+>
+> 🤖 Ou pule direto para: [05 — Fluxo integrado](05-fluxo-integrado.md) (se já fez o setup)

@@ -1,6 +1,6 @@
 # Capítulo 5 — Análises possíveis
 
-> Tendo seu corpus organizado nos cinco sistemas integrados (Cap. 4), abre-se um leque de análises que antes seriam inviáveis pra uma única pessoa em tempo razoável. Este capítulo cataloga as **seis análises mais úteis** e mostra **como interpretar cada resultado** sem cair em armadilhas comuns.
+> Tendo seu corpus organizado nos cinco sistemas integrados (Cap. 5), abre-se um leque de análises que antes seriam inviáveis pra uma única pessoa em tempo razoável. Este capítulo cataloga as **seis análises mais úteis** e mostra **como interpretar cada resultado** sem cair em armadilhas comuns.
 
 ## 5.1 Análise descritiva — o que você tem
 
@@ -48,7 +48,7 @@ Pesquisador iniciante tende a pular esse passo (parece chato). É erro. Você pr
 
 Pergunta: **como o foco temático do meu corpus mudou ao longo dos anos?**
 
-A ferramenta principal aqui é o **mapa Overlay do VOSviewer** (Cap. 4 §4.4).
+A ferramenta principal aqui é o **mapa Overlay do VOSviewer** (Cap. 5 §5.4).
 
 ### O que procurar no Overlay
 
@@ -163,7 +163,7 @@ Output: lista de tags candidatas a entrar no thesaurus, categorizadas (tecnologi
 
 Pergunta: **quais conceitos aparecem em mais de um vault meu?**
 
-Útil se você tem múltiplos vaults (PKM pessoal + projeto institucional + dissertação). Veja Cap. 4 §4.6.
+Útil se você tem múltiplos vaults (PKM pessoal + projeto institucional + dissertação). Veja Cap. 5 §5.6.
 
 ### Tipos de overlap a procurar
 
@@ -308,4 +308,4 @@ Daí pra cima fica fácil identificar as refs-âncora.
 
 ---
 
-> 📚 **Próximo capítulo:** [06 — Armadilhas aprendidas](06-armadilhas-aprendidas.md)
+> 📚 **Próximo capítulo:** [07 — Armadilhas aprendidas](07-armadilhas-aprendidas.md)
